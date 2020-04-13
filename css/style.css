@@ -220,7 +220,7 @@ span.count.third::after {
 
 .list_item_wrapper {
 	padding-top: 60px;
-	padding-right: 60px;
+	padding-right: 40px;
 }
 
 .list_item:nth-child(2n) {
@@ -237,7 +237,7 @@ span.count.third::after {
 
 .players {
   position: relative;
-	
+	overflow: hidden;
 }
 
 .basketballer {
@@ -251,14 +251,14 @@ span.count.third::after {
 }
 
 .players_title {
-  padding-left: 190px;
+  padding-left: 15px;
 }
 
 
 .players_list_item_wrapper {
   padding-top: 60px;	
   padding-right: 50%;
-  padding-left: 190px;
+  padding-left: 15px;
   padding-bottom: 60px;
 }
 
@@ -285,8 +285,8 @@ div.players_list_item_wrapper span.count.third {
 }
 
 section.last_section h2.section_title {
-  margin-top: 262px;
-  margin-bottom: 100px;
+  margin-top: 30%;
+  margin-bottom: 20%;
 }
 
 .last_section_content {
@@ -428,6 +428,25 @@ section.last_section h2.section_title {
 .footer_surface_icon {
   width: 193px;
   margin-bottom: 50px;
+}
+
+@media (max-width: 1280px) {
+  .basketballer {
+    right: -30%;  
+  }
+
+  h2.section_title {
+    font-size: 60px
+  }
+
+.last_section_content {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+  .last_section_text {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 960px) {
@@ -598,7 +617,6 @@ section.last_section h2.section_title {
 
 .footballer {
 	top: 60px;
-right: 20%;
 }
 
 .list_item_wrapper {
