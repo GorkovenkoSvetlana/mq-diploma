@@ -251,14 +251,14 @@ span.count.third::after {
 }
 
 .players_title {
-  padding-left: 190px;
+  padding-left: 50px;
 }
 
 
 .players_list_item_wrapper {
   padding-top: 60px;	
   padding-right: 50%;
-  padding-left: 190px;
+  padding-left: 15px;
   padding-bottom: 60px;
 }
 
@@ -430,6 +430,19 @@ section.last_section h2.section_title {
   margin-bottom: 50px;
 }
 
+@media (max-width: 1280px) {
+
+.players_list_item_wrapper {
+  padding-left: 15px;
+}
+
+
+
+
+
+
+}
+
 @media (max-width: 960px) {
 
 .header {
@@ -598,7 +611,6 @@ section.last_section h2.section_title {
 
 .footballer {
 	top: 60px;
-right: 20%;
 }
 
 .list_item_wrapper {
