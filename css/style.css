@@ -436,7 +436,8 @@ section.last_section h2.section_title {
   }
 
   h2.section_title {
-    font-size: 60px
+    font-size: 60px;
+    margin-bottom: 15px;
   }
 
 .last_section_content {
@@ -460,9 +461,10 @@ section.last_section h2.section_title {
 
 .download_button {
   margin-bottom: 0;
+  width: 300px;
 }
 
-.section_title {
+h2.section_title {
   margin-bottom: 15px;
 }
 
@@ -470,6 +472,10 @@ section.last_section h2.section_title {
   padding-top: 45px;
   padding-bottom: 38px;
   padding-right: 32px;
+}
+
+.list_title {
+  font-size: 30px;
 }
 
 .list_item {
