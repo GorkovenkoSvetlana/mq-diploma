@@ -616,13 +616,14 @@ section.last_section h2.section_title {
 	padding-left: 20px;
 }
 
-.section_title {
+h2.section_title {
 	font-size: 50px;
-	margin-bottom: 250px;
+	margin-bottom: 220px;
 }
 
 .footballer {
 	top: 60px;
+  left: 50px;
 }
 
 .list_item_wrapper {
@@ -654,7 +655,7 @@ section.main_section.athlets {
 
 .basketballer {
 	top: 60px;
-    right: 20%;
+  right: 15%;
 }
 
 .players_list_item_wrapper {
